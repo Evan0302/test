@@ -1,6 +1,8 @@
 import hudson.model.*;
 import groovy.json.*;
 
+//Pepiline 学习
+
 def find_files(filetype) {
 	
 	def files = findFiles(glob:filetype)
